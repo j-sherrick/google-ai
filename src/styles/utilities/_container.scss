@@ -1,0 +1,31 @@
+.container-lg {
+   width: 50rem;
+}
+
+.flex {
+   display: flex;
+}
+
+.flex-column {
+   flex-direction: column;
+}
+
+.centered {
+   margin-inline: auto;
+}
+
+.gap-1 {
+   gap: 1rem;
+}
+
+.gap-2 {
+   gap: 2rem;
+}
+
+.disabled {
+   opacity: 0.2;
+}
+
+.removed {
+   display: none;
+}

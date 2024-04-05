@@ -1,0 +1,32 @@
+---
+
+---
+<smart-cam>
+   <div id="liveView">
+      <button></button>
+      <video id="webcam" autoplay></video>
+   </div>
+   <div id="feedback">
+   </div>
+</smart-cam>
+
+<script>
+   import { SmartCam } from '@scripts/smartCam';
+</script>
+
+<style lang="scss">
+   smart-cam {
+      display: flex;
+
+      div {
+         flex: 1;
+      }
+
+      #liveView {
+         border: 1px solid green;
+      }
+
+      video {
+      }
+   }
+</style>

@@ -1,0 +1,22 @@
+{
+  "name": "google-ai",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.17.0",
+    "astro": "^4.5.15",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "sass": "^1.74.1"
+  }
+}

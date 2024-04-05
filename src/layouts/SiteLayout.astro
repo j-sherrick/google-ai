@@ -1,0 +1,22 @@
+---
+import Header from "@components/Header.astro";
+import Container from "@components/Container.astro";
+import '@styles/main.scss';
+
+const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>{title} | Google AI for TypeScript Developers</title>
+   </head>
+   <body>
+      <Container>
+         <Header />
+         <slot />
+      </Container>
+      <script async defer type="module"></script>
+   </body>
+</html>
